@@ -1,15 +1,15 @@
-#运行方式
+# 运行方式
 ```python
 python run.py
 ```
-#运行环境
+# 运行环境
 ```python3.6```
 
-#参考
+# 参考
 1.其实以前也破解过,只是没有详细记录
 2.参考 https://lengyue.me/index.php/2018/10/06/anjuke/
 
-#破解过程记录
+# 破解过程记录
 
 ## 准备
 1. 破解url ```https://www.anjuke.com/captcha-verify/?callback=shield```
@@ -63,12 +63,12 @@ jQuery19108408108632218079_1543310767116({
 
 ```
 
-4.破解加密数据
+4. 破解加密数据
 - 知识点1,如果是xhr的请求,可以在**XHR/fetch Breakpoints**中打断点,数据url的部分值
 - 知识点2,如果是js的请求,可以直接点进那个js文件
 - 知识点3,点进的js文件会定位到ajax的内部函数,Call Stack可以看堆栈(点checkVerifyResult函数),可以看到熟悉的ajax请求
 
-5.加密数据是由CryptoJS加密的
+5. 加密数据是由CryptoJS加密的
 - 只是一段js 下载这个js就行了
 
 6. 路径数组的获得
