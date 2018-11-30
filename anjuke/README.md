@@ -1,15 +1,15 @@
-#运行方式
+# 运行方式
 ```python
 python run.py
 ```
-#运行环境
+# 运行环境
 ```python3.6```
 
-#参考
+# 参考
 1.其实以前也破解过,只是没有详细记录
 2.参考 https://lengyue.me/index.php/2018/10/06/anjuke/
 
-#破解过程记录
+# 破解过程记录
 
 ## 准备
 1. 破解url ```https://www.anjuke.com/captcha-verify/?callback=shield```
